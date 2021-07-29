@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itaú</title>
+  <link rel="stylesheet" type="text/css" href="contato.css" media="screen">
+    
+</head>
+<body>
+    <!--Menu-->
+    <div class="menu"> 
+      <img src="img/itau-logo.png" width="5%">
+      <a class="logo">Itaú Tech - Mais um sonho se realizando </a>
+      <img src="img/itaú.jpeg" width="8%">
+    </div><br>
+    <!--Formulário-->
+    <form>
+        <div class="fieldset">
+          <label class="label"><strong>CPF</strong></label>
+          <div class="control" > 
+          <input class="input" type="text" maxlength="11" name="CPF" placeholder="Digite aqui (obrigatório)" required>
+        </div><br>
+        <div>
+          <label class="label"><strong>Nome</strong></label>
+          <div class="control">
+          <input class="input" type="text" name="Nome" placeholder="Digite aqui (obrigatório)" required>
+        </div><br>
+        <div class="field">
+            <label class="label"><strong>Celular</strong></label>
+            <div class="control">
+            <input type="text" maxlength="11" name="message" placeholder="Digite aqui (obrigatório)" required>
+        </div><br>
+            <div id checkbox>
+              <Label class="label"><strong>Sexo</strong></Label><br>
+              <input type="checkbox" id="tecnologia1" value="Masculino">
+              <label for="tecnologia1">Masculino</label>
+              <input type="checkbox" id="tecnologia2" value="Feminino">
+              <label for="tecnolgia2">Feminino</label><br><br>
+
+            <label class="label"><strong>CEP</strong></label>
+            <div class="control">
+            <input class="input" type="text" maxlength="9" name="CEP" placeholder="Digite aqui">
+          </div><br>
+
+          <div class="field">
+            <label class="label"><strong>Endereço</strong></label>
+            <div class="control">
+            <input type="text" name="Endereço" placeholder="Digite aqui (obrigatório)" required>
+            <label class="label"><strong>Número</strong></label>
+            <input type="text" name="Número" placeholder="Digite aqui (obrigatório)" required>
+          </div><br>
+          <div class="field">            
+            <label class="label"><strong>Bairro</strong></label>
+            <input type="text" name="Bairro" placeholder="Digite aqui">
+            <label class="label"><strong>Cidade</strong></label>
+            <input type="text" name="Cidade" placeholder="Digite aqui">
+            <label class="label"><strong>Estado</strong></label>
+            <input type="text" name="Estado" placeholder="Digite aqui">
+          </div><br>
+          <div class="field">
+            <label class="label"><strong>Telefone Fixo</strong></label>
+            <div class="control">
+            <input type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
+          </div><br>
+          <button class="button is-primary">Enviar </button>
+          <button class="button is-primary">Cancelar </button>
+        </div><br>
+      </fieldset>
+    </form>
+    <footer>
+    <div class="rodape">
+      <p class="bran">© 2021 Programa de Formação Tech | Itaú // Edição Pcd</p>
+    </div>
+</footer>
+</body>
+</html>
