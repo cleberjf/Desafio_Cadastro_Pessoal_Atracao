@@ -85,11 +85,12 @@ button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
     color: #fff;
 }
 .button{
-background:rgba(255, 60, 0, 0.979);
+background: white
+
 justify-content:;
 font size: 1px;
 margin-bottom: 1px;
-border: none;
+border: 1px solid black;
 padding: 10px;
 border-radius: 3px;
 margin-top: 10px;
