@@ -66,6 +66,10 @@ fieldset { /* CONFIGURAÇÃO DA CAIXA DO FORMULÁRIO */
     max-width: 100;
 }
 
+input{
+    margin-bottom: 5px;
+}
+
 input[type='text']:hover,
 textarea:hover,
 input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
