@@ -12,59 +12,49 @@
     <!--Menu-->
     <div class="menu"> 
       <img src="img/itau-logo-7.png" width="5%">
-      <a class="logo">Itaú Tech - Mais um sonho se realizando </a>
+      <a class="logo">Cadastro Pessoal</a>
       <img src="img/itaú.jpeg" width="8%">
     </div><br>
     <!--Formulário-->
-    <div class="conteudo">
-    
     <form action="javascript:submeterForm()">
-      <div class="fieldset">
-        <label class="label"><strong>CPF</strong></label>
-          <div class="control" > 
-          <input class="input" type="text" maxlength="11" name="CPF" placeholder="Digite aqui (obrigatório)" required>
-        </div>
-        <div>
-          <label class="label"><strong>Nome</strong></label>
-          <div class="control">
-          <input class="input" type="text" id="name" name="Nome" placeholder="Digite aqui (obrigatório)" required>
-        </div>
-        <div class="field">
-          <label class="label"><strong>Celular</strong></label>
-          <div class="control">
-          <input type="text" maxlength="14" name="message" placeholder="(DDD) Digite aqui (obrigatório)" required>
-        </div> 
-        <div class="campo">
-          <label for="Genero"><strong>Genero</strong></label>
-          <select id="Genero">
-            <option selected disabled value="">Selecione</option>
-            <option>Masculino</option>
-            <option>Feminino</option>
-            <option>Outros</option>
-          </select>
-        </div>
+      <div class="campo">
+        <label><strong>CPF*</strong></label>
+        <input class="input" type="text" maxlength="11" name="CPF" placeholder="Digite aqui" required>
+      </div>
+      <div class="control"></div>
+        <label><strong>Nome*</strong></label>
+        <input class="input" type="text" id="name" name="Nome" placeholder="Digite aqui " required>
+      </div>
+      <div class="control">
+        <label class="label"><strong>Celular*</strong></label>
+        <input type="text" maxlength="14" name="message" placeholder="Digite aqui " required>
+      </div> 
+      <div class="campo">
+        <label for="Genero"><strong>Sexo</strong></label>
+        <select id="Genero">
+          <option selected  value="">Selecione</option>
+          <option>Masculino</option>
+          <option>Feminino</option>
+          <option>Outros</option>
+        </select>
+      </div>
 
-        <div class="field">
-          <label class="label"><strong>Endereço</strong></label>
-          <div class="control">
-          <input type="text" name="Endereço" placeholder="Digite aqui (obrigatório)" required>
-          <label class="label"><strong>Número</strong></label>
-          <input type="text" name="Número" placeholder="Digite aqui (obrigatório)" required>
-        </div>
-        <div class="field">            
-          <label class="label"><strong>Bairro</strong></label>
-          <div class="control">
-          <input type="text" name="Bairro" placeholder="Digite aqui"><br>
-          <label class="label"><strong>Cidade</strong></label>
-          <div class="control">
-          <input type="text" name="Cidade" placeholder="Digite aqui"><br>
-          <label class="label"><strong>Estado</strong></label>
-          <div class="control">
-          <input type="text" name="Estado" placeholder="Digite aqui"><br>
-          <label class="label"><strong>Tel. Fixo</strong></label>
-          <div class="control">
-          <input type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
-        </div>
+      <div class="campo">
+        <label><strong>Endereço*</strong></label>
+        <input type="text" name="Endereço" placeholder="Digite aqui " required>
+        <label class="label"><strong>Número*</strong></label>
+        <input type="text" name="Número" placeholder="Digite aqui " required>
+      </div>
+      <div class="~campo">            
+        <label><strong>Bairro</strong></label>
+        <input type="text" name="Bairro" placeholder="Digite aqui"><br>
+        <label><strong>Cidade</strong></label>
+        <input type="text" name="Cidade" placeholder="Digite aqui"><br>
+        <label><strong>Estado</strong></label>
+        <input type="text" name="Estado" placeholder="Digite aqui"><br>
+        <label><strong>Tel. Fixo</strong></label>
+        <input type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
+      </div>
         <button type="submit" class="button is-primary">Enviar </button>
         </div><br>
       </fieldset>
