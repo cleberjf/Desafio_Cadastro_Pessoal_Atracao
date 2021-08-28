@@ -1,4 +1,4 @@
-# Desafio Cadastro Pessoal - Atracao
+# Desafio Cadastro Pessoal - Atração
 Criar um formulario para registrar dados pessoais
 
 Front
