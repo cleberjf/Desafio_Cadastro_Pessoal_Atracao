@@ -75,12 +75,16 @@ input{
     
     
 }
+input[type= 'radio']{
+    margin-left: -4%;
+}
 
 input[type='text']:hover,
 textarea:hover,
 input[type='tel']:hover{ /* CONFIGURAÇÃO DOS INPUTS QUANDO PASSARMOS O CURSOR */
     background-color: gainsboro;
     border-radius: 3px;
+    
 }
 
 button.btn:hover{ /* CONFIGURAÇÃO DOS BUTTON QUANDO PASSARMOS O CURSOR */
