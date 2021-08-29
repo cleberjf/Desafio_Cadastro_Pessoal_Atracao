@@ -16,12 +16,12 @@
       <img src="img/itaú.jpeg" width="8%">
     </div><br>
     <!--Formulário-->
-    <form action="javascript:submeterForm()">
-
-     <div class="campo"></div>
-       <label><strong>Nome*</strong></label>
-       <input class="input" type="text" id="name" name="Nome" placeholder="Digite aqui " required>
-     </div>
+  <form action="javascript:submeterForm()">
+    <fieldset>
+      <div class="campo"></div>
+        <label><strong>Nome*</strong></label>
+        <input class="input" type="text" id="name" name="Nome" placeholder="Digite aqui " required>
+      </div>
       <div class="campo">
         <label><strong>CPF*</strong></label>
         <input class="input" type="text" maxlength="11" name="CPF" placeholder="Digite aqui" required>
@@ -35,22 +35,21 @@
         <input type="text" maxlength="14" name="message" placeholder="Digite aqui " required>
       </div> 
       <div class="campo">
-        <label for="Genero"><strong>Sexo</strong></label>
-        <select id="Genero">
-          <option selected  value="">Selecione</option>
-          <option>Masculino</option>
-          <option>Feminino</option>
-          <option>Outros</option>
-        </select>
+        <label for="Genero"><strong>Sexo</strong></label><br>
+        <Label for= "Feminino">Feminino</Label>
+        <input type="radio" id="Feminino" name="genero" value="Feminino"><br>
+        <Label for= "Masculino">Masculino</Label>
+        <input type="radio" id="Masculino" name="genero" value="Masculino"><br>
+        <Label for= "Outro">Outro</Label>
+        <input type="radio" id="Masculino" name="genero" value="Masculino"><br>
       </div>
-
       <div class="campo">
         <label><strong>Endereço*</strong></label>
         <input type="text" name="Endereço" placeholder="Digite aqui " required>
         <label class="label"><strong>Número*</strong></label>
         <input type="text" name="Número" placeholder="Digite aqui " required>
       </div>
-      <div class="~campo">            
+      <div class="campo">            
         <label><strong>Bairro</strong></label>
         <input type="text" name="Bairro" placeholder="Digite aqui"><br>
         <label><strong>Cidade</strong></label>
@@ -60,11 +59,11 @@
         <label><strong>Tel. Fixo</strong></label>
         <input type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
       </div>
-        <button type="submit" class="button is-primary">Enviar </button>
-        </div><br>
-      </fieldset>
-    </form>
-   </div>
+      <div>
+      <button type="submit" class="button is-primary">Enviar </button>
+    </div><br>
+    </fieldset>
+  </form>
 </body>
 
 <footer>
