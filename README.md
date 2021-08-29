@@ -1,30 +1,24 @@
 # Desafio Cadastro Pessoal - Atração
-Criar um formulario para registrar dados pessoais
+Formação Tech Itau - PCD
 
-Front
+Cleber Jeferson da Silva
 
-Domínio - Modelagem de Dados
+Sou formado em Gestão de pessoas (RH), atualmente sou Analista Jurídico e sempre trabalhei na área administrativa
+Tenho um grande interesse em ingressar na área da tecnologia, sim quero muito mudar minha área profissiona e encotrei a grande oportunidade para realizar essa mudança de profissição e um novo estilo de vida. 
+Sim, quero aproveitar essa grande oportunidade que o Itaú vem proporcionando e me tornar um novo profissional de tecnologia.
 
-Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular.
 
-Regra de Negócio
+O desafio - Elaborar um formulário para registros de dados pessoais. 
+Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular. 
+Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios.
 
-Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios
 
-Requisitos
+Referencias de Pesquisas para elaboração de todos os desafios:
 
-Explorar os recursos de CSS
-Explorar os recursos do Javascript (Ex. Abrir um alert ao submeter o formulário)
-Hospedar o site! (Sugerimos o Netlify que é gratuito)
+https://www.w3schools.com/
 
-Extras
+https://developer.mozilla.org/
 
-O campo Sexo pode ser do tipo select com as opções M = Masculino, F = Feminino
-Estilização do site (CSS) básico
+https://blog.rocketseat.com.br/
 
-Disponibilizar o link do github do projeto bem descrito quanto às funcionalidades, implementações relevantes e links de pesquisas
-Orientaçãoes
-
-O desafio é individual
-Não usar frameworks de estilo como Bootstrap, Google Material e demais.
-Os entregáveis descritos acima são requisitos básicos para apresentação no dia da entrevista, ficando a critério do candidato, se quiser e estiver apto a melhorar o desafio de alguma forma, com os conhecimentos adquiridos durante a trilha de especialização.
+https://www.devmedia.com.br/
