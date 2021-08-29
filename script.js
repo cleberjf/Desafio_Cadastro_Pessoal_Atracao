@@ -5,7 +5,7 @@ function submeterForm() {
   console.log(nome);
 
   if (nome.value != "") {
-      alert('Sr ' + nome.value + ', seu cadastro foi encaminhado com sucesso');
+    alert('Sr ' + nome.value + ', seu cadastro foi encaminhado com sucesso');
 
   }
 }
