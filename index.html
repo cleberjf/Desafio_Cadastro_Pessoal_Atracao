@@ -20,44 +20,42 @@
     <fieldset>
       <div class="campo"></div>
         <label><strong>Nome*</strong></label>
-        <input class="input" type="text" id="name" name="Nome" placeholder="Digite aqui " required>
+        <input class="campo col-1" type="text" id="name" name="Nome" placeholder="Digite aqui " required>
       </div>
       <div class="campo">
         <label><strong>CPF*</strong></label>
-        <input class="input" type="text" maxlength="11" name="CPF" placeholder="Digite aqui" required>
+        <input class="campo col-2 sp-15" type="text" maxlength="11" id="CPF" name="CPF" placeholder="Digite aqui" required>
       </div>
       <div class="campo"></div>
         <label><strong>RG</strong></label>
-        <input class="input" type="text" maxlength="9" id="RG" name="RG" placeholder="Digite aqui ">
+        <input class="campo col-5 sp-15" type="text" maxlength="9" id="RG" name="RG" placeholder="Digite aqui ">
       </div>
       <div class="campo">
-        <label class="label"><strong>Celular*</strong></label>
-        <input type="text" maxlength="14" name="message" placeholder="Digite aqui " required>
+        <label><strong>Celular*</strong></label>
+        <input class="col-3 sp-15" type="text" maxlength="14" name="message" placeholder="Digite aqui " required>
+        <label><strong>Tel. Fixo</strong></label>
+        <input class="col-3 sp-15" type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
       </div> 
       <div class="campo">
-        <label for="Genero"><strong>Sexo</strong></label><br>
+        <label for="Genero"><strong>Genero:</strong></label><br>
         <Label for= "Feminino">Feminino</Label>
-        <input type="radio" id="Feminino" name="genero" value="Feminino"><br>
+        <input type="radio" id="Feminino" name="genero" value="Feminino">
         <Label for= "Masculino">Masculino</Label>
-        <input type="radio" id="Masculino" name="genero" value="Masculino"><br>
-        <Label for= "Outro">Outro</Label>
         <input type="radio" id="Masculino" name="genero" value="Masculino"><br>
       </div>
       <div class="campo">
         <label><strong>Endereço*</strong></label>
-        <input type="text" name="Endereço" placeholder="Digite aqui " required>
+        <input class="col-3 sp-15" type="text" name="Endereço" placeholder="Digite aqui " required>
         <label class="label"><strong>Número*</strong></label>
-        <input type="text" name="Número" placeholder="Digite aqui " required>
+        <input class="col-4" type="text" name="Número" placeholder="Digite aqui " required>
       </div>
       <div class="campo">            
         <label><strong>Bairro</strong></label>
-        <input type="text" name="Bairro" placeholder="Digite aqui"><br>
+        <input class="col-3 sp-15" type="text" name="Bairro" placeholder="Digite aqui"><br>
         <label><strong>Cidade</strong></label>
-        <input type="text" name="Cidade" placeholder="Digite aqui"><br>
+        <input class="col-3 sp-15" type="text" name="Cidade" placeholder="Digite aqui"><br>
         <label><strong>Estado</strong></label>
-        <input type="text" name="Estado" placeholder="Digite aqui"><br>
-        <label><strong>Tel. Fixo</strong></label>
-        <input type="text" maxlength="10" name="Telefone" placeholder="Digite aqui">
+        <input class="col-3 sp-15" type="text" name="Estado" placeholder="Digite aqui"><br>
       </div>
       <div>
       <button type="submit" class="button is-primary">Enviar </button>

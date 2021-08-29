@@ -34,7 +34,7 @@ body { /* CONFIGURAÇÃO DO BODY (CORPO DA PÁGINA) */
 
 label{
     padding: 30px;
-    margin-left: 35%;
+    margin-left: 10%;
     
 }
 
@@ -42,7 +42,7 @@ fieldset { /* CONFIGURAÇÃO DA CAIXA DO FORMULÁRIO */
     flex-wrap: wrap;
     background-color: #fff;
     margin-left: 20%;
-    max-width: 800px;
+    max-width: 500px;
     margin-top: %;   
     padding: 5px;
     border-radius: 3px;
@@ -104,6 +104,33 @@ padding: 10px;
 border-radius: 3px;
 margin-top:5px;
 margin-left: 40% ;
+}
+
+.col-1{
+    width: 300px;
+    margin-left: 0%;
+}
+
+.col-2{
+    width: 300px;
+    margin-left: 2%;
+}
+
+.col-3{
+    width: 250px;
+}
+
+.col-4{
+    width: 70px;
+}
+.col-5{
+    width: 300px;
+    margin-left: 5%;
+}
+
+}
+.sp-15{
+    margin-right: 15px;
 }
 
 footer .rodape{
