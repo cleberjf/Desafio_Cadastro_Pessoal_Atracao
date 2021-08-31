@@ -3,8 +3,8 @@ Formação Tech Itau - PCD
 
 Cleber Jeferson da Silva
 
-Sou formado em Gestão de pessoas (RH), atualmente sou Analista Jurídico e sempre trabalhei na área administrativa
-Tenho um grande interesse em ingressar na área da tecnologia, sim quero muito mudar minha área profissiona e encotrei a grande oportunidade para realizar essa mudança de profissição e um novo estilo de vida. 
+Sou formado em Gestão de pessoas (RH), atualmente sou Analista Jurídico e sempre trabalhei na área administrativa.
+Tenho um grande interesse em ingressar na área de TI, Sim, quero muito mudar minha área profissional e encotrei a grande oportunidade para realizar essa mudança de profissição e um novo estilo de vida. 
 Sim, quero aproveitar essa grande oportunidade que o Itaú vem proporcionando e me tornar um novo profissional de tecnologia.
 
 
