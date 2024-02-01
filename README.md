@@ -1,24 +1,13 @@
-# Desafio Cadastro Pessoal - Atração
-Formação Tech Itau - PCD
+# Transição de carreira
 
-Cleber Jeferson da Silva
+Cleber Jeferson da Silva (PcD)
 
-Sou formado em Gestão de pessoas (RH), atualmente sou Analista Jurídico e sempre trabalhei na área administrativa.
-Tenho um grande interesse em ingressar na área de TI, Sim, quero muito mudar minha área profissional e encotrei a grande oportunidade para realizar essa mudança de profissição e um novo estilo de vida. 
-Sim, quero aproveitar essa grande oportunidade que o Itaú vem proporcionando e me tornar um novo profissional de tecnologia.
-
-
-O desafio - Elaborar um formulário para registros de dados pessoais. 
-Cadastro Pessoal com os campos: Nome, Cpf, Rg, Sexo, Endereco, Numero, Bairro, Cidade, Estado, Cep, Telefone Fixo, Telefone Celular. 
-Os campos Nome, Cpf, Endereco, Numero, Telefone Celular são obrigatórios.
+Sou formado em Gestão de pessoas (RH), desempenhei minhas tarefas nos cargos de Analista de RH e Analista Jurídico, meu início de carreira foi na área administrativa.
+Meu objetivo consolidado é em ingressar na área de TI e ficar até quando Deus permitir. Sim, a mudança de carreira iniciou e já estou me preparando para novos desafios, pois desafios sempre foram bem-vindos e executados, vejo nessa minha nova jornada que o amor por desempenhar os melhores resultados será gratificante como havia feito nos cargos que ocupei.
+Sim, aproveitar essa grande oportunidade para mostrar quem eu sou, para onde quero ir e sou volátil para aprender novas ferramentas que irão agregar no meu novo estilo de vida.
 
 
-Referencias de Pesquisas para elaboração de todos os desafios:
+O desafio - Elaborar diversos programas e essa página está aberta para quem quiser ver e entender os meus objetivos, estou no início e vou atualizando essa página a cada passo que der rumo ao infinito tecnológico.
 
-https://www.w3schools.com/
 
-https://developer.mozilla.org/
-
-https://blog.rocketseat.com.br/
-
-https://www.devmedia.com.br/
+Referencias de Pesquisas e dados para elaboração de todos ficaram dentro de cada projeto.
